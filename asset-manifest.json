@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Mesto__ReactJS/static/css/main.e39059de.chunk.css",
+    "main.js": "/Mesto__ReactJS/static/js/main.ad05fb08.chunk.js",
+    "main.js.map": "/Mesto__ReactJS/static/js/main.ad05fb08.chunk.js.map",
+    "runtime-main.js": "/Mesto__ReactJS/static/js/runtime-main.27ecc7a9.js",
+    "runtime-main.js.map": "/Mesto__ReactJS/static/js/runtime-main.27ecc7a9.js.map",
+    "static/js/2.32b5bee5.chunk.js": "/Mesto__ReactJS/static/js/2.32b5bee5.chunk.js",
+    "static/js/2.32b5bee5.chunk.js.map": "/Mesto__ReactJS/static/js/2.32b5bee5.chunk.js.map",
+    "static/js/3.10d7f6b1.chunk.js": "/Mesto__ReactJS/static/js/3.10d7f6b1.chunk.js",
+    "static/js/3.10d7f6b1.chunk.js.map": "/Mesto__ReactJS/static/js/3.10d7f6b1.chunk.js.map",
+    "index.html": "/Mesto__ReactJS/index.html",
+    "static/css/main.e39059de.chunk.css.map": "/Mesto__ReactJS/static/css/main.e39059de.chunk.css.map",
+    "static/js/2.32b5bee5.chunk.js.LICENSE.txt": "/Mesto__ReactJS/static/js/2.32b5bee5.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Mesto__ReactJS/static/media/trash-icon.6783262a.svg",
+    "static/media/avatar-icon.1a05233d.svg": "/Mesto__ReactJS/static/media/avatar-icon.1a05233d.svg",
+    "static/media/close.8a65f75d.svg": "/Mesto__ReactJS/static/media/close.8a65f75d.svg",
+    "static/media/logo.fad4f8a5.svg": "/Mesto__ReactJS/static/media/logo.fad4f8a5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27ecc7a9.js",
+    "static/js/2.32b5bee5.chunk.js",
+    "static/css/main.e39059de.chunk.css",
+    "static/js/main.ad05fb08.chunk.js"
+  ]
+}
