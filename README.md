@@ -8,7 +8,7 @@
 * HTML 
 * CSS
 * JS
-* Webpack
+* ReactJs
 
 ## Installing
 
