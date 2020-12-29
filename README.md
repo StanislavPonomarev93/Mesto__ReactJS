@@ -5,7 +5,6 @@
 
 ## Technologies
 
-* CSS
 * ReactJs
 
 ## Installing
