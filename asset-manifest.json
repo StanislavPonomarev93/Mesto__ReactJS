@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Mesto__ReactJS/static/css/main.e39059de.chunk.css",
-    "main.js": "/Mesto__ReactJS/static/js/main.0527af0d.chunk.js",
-    "main.js.map": "/Mesto__ReactJS/static/js/main.0527af0d.chunk.js.map",
-    "runtime-main.js": "/Mesto__ReactJS/static/js/runtime-main.93bb405b.js",
-    "runtime-main.js.map": "/Mesto__ReactJS/static/js/runtime-main.93bb405b.js.map",
-    "static/js/2.6444262e.chunk.js": "/Mesto__ReactJS/static/js/2.6444262e.chunk.js",
-    "static/js/2.6444262e.chunk.js.map": "/Mesto__ReactJS/static/js/2.6444262e.chunk.js.map",
-    "static/js/3.ddd12584.chunk.js": "/Mesto__ReactJS/static/js/3.ddd12584.chunk.js",
-    "static/js/3.ddd12584.chunk.js.map": "/Mesto__ReactJS/static/js/3.ddd12584.chunk.js.map",
-    "index.html": "/Mesto__ReactJS/index.html",
-    "static/css/main.e39059de.chunk.css.map": "/Mesto__ReactJS/static/css/main.e39059de.chunk.css.map",
-    "static/js/2.6444262e.chunk.js.LICENSE.txt": "/Mesto__ReactJS/static/js/2.6444262e.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/Mesto__ReactJS/static/media/trash-icon.6783262a.svg",
-    "static/media/avatar-icon.1a05233d.svg": "/Mesto__ReactJS/static/media/avatar-icon.1a05233d.svg",
-    "static/media/close.8a65f75d.svg": "/Mesto__ReactJS/static/media/close.8a65f75d.svg",
-    "static/media/logo.fad4f8a5.svg": "/Mesto__ReactJS/static/media/logo.fad4f8a5.svg"
+    "main.css": "./static/css/main.39e51112.chunk.css",
+    "main.js": "./static/js/main.acb9f3f4.chunk.js",
+    "main.js.map": "./static/js/main.acb9f3f4.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.d8e36743.js",
+    "runtime-main.js.map": "./static/js/runtime-main.d8e36743.js.map",
+    "static/js/2.32b5bee5.chunk.js": "./static/js/2.32b5bee5.chunk.js",
+    "static/js/2.32b5bee5.chunk.js.map": "./static/js/2.32b5bee5.chunk.js.map",
+    "static/js/3.10d7f6b1.chunk.js": "./static/js/3.10d7f6b1.chunk.js",
+    "static/js/3.10d7f6b1.chunk.js.map": "./static/js/3.10d7f6b1.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.39e51112.chunk.css.map": "./static/css/main.39e51112.chunk.css.map",
+    "static/js/2.32b5bee5.chunk.js.LICENSE.txt": "./static/js/2.32b5bee5.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/trash-icon.6783262a.svg",
+    "static/media/avatar-icon.1a05233d.svg": "./static/media/avatar-icon.1a05233d.svg",
+    "static/media/close.8a65f75d.svg": "./static/media/close.8a65f75d.svg",
+    "static/media/logo.fad4f8a5.svg": "./static/media/logo.fad4f8a5.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.93bb405b.js",
-    "static/js/2.6444262e.chunk.js",
-    "static/css/main.e39059de.chunk.css",
-    "static/js/main.0527af0d.chunk.js"
+    "static/js/runtime-main.d8e36743.js",
+    "static/js/2.32b5bee5.chunk.js",
+    "static/css/main.39e51112.chunk.css",
+    "static/js/main.acb9f3f4.chunk.js"
   ]
 }
