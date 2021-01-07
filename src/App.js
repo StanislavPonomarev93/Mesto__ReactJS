@@ -2,6 +2,7 @@ import React from 'react';
 import CurrentUserContext from './contexts/CurrentUserContext';
 import Header from './components/Header';
 import Main from './components/Main';
+import Spinner from './components/Spinner';
 import EditProfilePopup from './components/EditProfilePopup';
 import EditAvatarPopup from './components/EditAvatarPopup';
 import AddPlacePopup from './components/AddPlacePopup';
@@ -21,6 +22,7 @@ function App() {
   });
   const [cards, setCards] = React.useState([]);
   const [loading, setLoading] = React.useState(false);
+  const [spinner, setSpinner] = React.useState(true);
 
   const onEditProfile = () => setPopupProfile(!isEditProfilePopupOpen);
   const onAddPlace = () => setPopupPlace(!isAddPlacePopupOpen);
@@ -35,23 +37,23 @@ function App() {
   const handleUpdateUser = (obj) => {
     setLoading(true);
     api.sendUserInfo(obj.name, obj.about)
-    .then((res) => {
-      setCurrentUser(res);
-      closeAllPopups();
-    })
-    .catch(err => console.log(`Ошибка: ${err}`))
-    .finally(() => setLoading(false));
+      .then((res) => {
+        setCurrentUser(res);
+        closeAllPopups();
+      })
+      .catch(err => console.log(`Ошибка: ${err}`))
+      .finally(() => setLoading(false));
 
   }
   const handleUpdateAvatar = (obj) => {
     setLoading(true);
     api.changeAvatar(obj.avatar)
-    .then((res) => {
-      setCurrentUser(res);
-      closeAllPopups();
-    })
-    .catch(err => console.log(`Ошибка: ${err}`))
-    .finally(() => setLoading(false));
+      .then((res) => {
+        setCurrentUser(res);
+        closeAllPopups();
+      })
+      .catch(err => console.log(`Ошибка: ${err}`))
+      .finally(() => setLoading(false));
   }
   const handleCardLike = (card) => {
     const isLiked = card.likes.some(i => i._id === currentUser._id);
@@ -69,22 +71,25 @@ function App() {
   const handleAddPlaceSubmit = (newCard) => {
     setLoading(true);
     api.addCard(newCard)
-    .then((res) => {
-      setCards([...cards, res]);
-      closeAllPopups();
-    })
-    .catch(err => console.log(`Ошибка: ${err}`))
-    .finally(() => setLoading(false));
+      .then((res) => {
+        setCards([...cards, res]);
+        closeAllPopups();
+      })
+      .catch(err => console.log(`Ошибка: ${err}`))
+      .finally(() => setLoading(false));
   }
   React.useEffect(() => {
     api.getUserInfo().then((res) => setCurrentUser(res))
-    api.getInitialCards().then(res => setCards(res));
+    api.getInitialCards().then(res => {
+      setCards(res);
+      setSpinner(false);
+    });
   }, []);
   return (
     <div className="App">
       <CurrentUserContext.Provider value={currentUser}>
         <Header />
-        <Main
+        {spinner ? <Spinner /> : <Main
           onEditProfile={onEditProfile}
           onAddPlace={onAddPlace}
           onEditAvatar={onEditAvatar}
@@ -92,7 +97,8 @@ function App() {
           cards={cards}
           onCardLike={handleCardLike}
           onCardDelete={handleCardDelete}
-        />
+        />}
+        {/* <Spinner /> */}
         <ImagePopup
           card={selectedCard}
           onClose={closeAllPopups}

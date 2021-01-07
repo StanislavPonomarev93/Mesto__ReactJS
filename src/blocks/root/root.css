@@ -4,11 +4,4 @@
   background-color: #00040c;
   min-height: 100vh;
   font-family: 'Inter';
-  padding-bottom: 194px;
-}
-
-@media screen and (max-width: 1024px) {
-  #root {
-    padding-bottom: 140px;
-  }
 }

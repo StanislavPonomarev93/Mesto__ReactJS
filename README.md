@@ -10,7 +10,7 @@
 ## Installing
 
 1. `clone repository`
-2. `cd mesto-react`
+2. `cd Mesto__ReactJS`
 3. `npm i`
 4. `npm start`
 
